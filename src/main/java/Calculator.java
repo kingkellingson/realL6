@@ -1,3 +1,4 @@
+import org.apache.commons.lang3.RandomStringUtils;
 
 class Calculator {
 
@@ -72,8 +73,9 @@ class Calculator {
     if you run this function twice with the same String input, it must return 2 unique String IDs
      */
     String createUniqueID(String n){
+        String generatedString = RandomStringUtils.random(15, true, false);
 
-        return null;
+        return n + generatedString;
     }
 
 
