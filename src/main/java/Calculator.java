@@ -43,13 +43,13 @@ class Calculator {
         if (n < 2) {
             return n;
         }
-        int [] nums = new int[n];
+        int [] nums = new int[n+1];
         nums[0] = 0;
         nums[1] = 1;
-        for (int i = 2; i < n; i++) {
+        for (int i = 2; i <= n; i++) {
             nums[i] = nums[i-1] + nums[i-2];
         }
-        return nums[n-1];
+        return nums[n];
     }
 
 
@@ -61,7 +61,11 @@ class Calculator {
     if int a = 16 then this method returns: 10000
      */
     String intToBinaryNumber(int n){
-        return Integer.toBinaryString(n);
+        if (n == 0) {
+            return "0";
+        }
+        String res = Integer.toBinaryString(n);
+        return res;
     }
 
     /*
