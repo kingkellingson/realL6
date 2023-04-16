@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ccca33a-e96e-469b-9880-85f69c3f39fb" name="Default Changelist" comment="First push up" />
+    <list default="true" id="6ccca33a-e96e-469b-9880-85f69c3f39fb" name="Default Changelist" comment="push up 1">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/Docker-workflow.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/Docker-workflow.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,11 +80,33 @@
       <option name="project" value="LOCAL" />
       <updated>1681619761291</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First push up">
+      <created>1681619798183</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681619798183</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First push up">
+      <created>1681619938729</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681619938729</updated>
+    </task>
+    <task id="LOCAL-00004" summary="push up 1">
+      <created>1681620010599</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681620010599</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First push up" />
-    <option name="LAST_COMMIT_MESSAGE" value="First push up" />
+    <MESSAGE value="push up 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="push up 1" />
   </component>
 </project>

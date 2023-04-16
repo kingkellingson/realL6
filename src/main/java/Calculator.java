@@ -2,7 +2,7 @@
 class Calculator {
 
     Calculator(){
-        //to push up 1
+        //to push up 2
     }
 
     int add(int a , int b){
