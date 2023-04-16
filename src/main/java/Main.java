@@ -82,7 +82,6 @@ public class Main {
 
     public static int promptForNum(Scanner s)
     {
-        System.out.println("How many tests will there be during the semester");
         String input = promptForInput(s);
         int number;
 
